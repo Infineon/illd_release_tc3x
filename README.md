@@ -23,7 +23,7 @@ To compile the iLLDs for the TC39xB device, add the following macros to the AppS
 
 When building the blinky example for other devices, update the Ifx_cfg.h file accordingly by adding the relevant device-specific macros.								  
 									  
-## iLLD version and Baseline info
+## iLLD version info
 iLLD Release version	V1.20.0
 
 								   
