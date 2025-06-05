@@ -1,10 +1,13 @@
+# iLLD Release TC3x
+
 ## Folder structure
 illd_release_tc3x contains the following folders and file
-	- doc			contains the TC3xx UM and iLLD Release note
-	- examples		contains the BaseFramework for all the TC3xx devices and BlinkyLed example project
-	- exe			contains the installer for iLLD package
-	- src			contains the source code for TC3xx
-	- Readme.md		contains info about package usage and iLLD software release version
+* `doc`      : contains the TC3xx UM and iLLD Release note
+* `examples` : contains the BaseFramework for all the TC3xx devices and BlinkyLed example project
+* `exe`      : Contains the installer for the iLLD package
+* `src`      : contains the source code for TC3xx
+* `Readme.md`: Contains information about the folder structure, package usage and iLLD software
+			   release version.
 
 
 ## Build Instructions & Usage
