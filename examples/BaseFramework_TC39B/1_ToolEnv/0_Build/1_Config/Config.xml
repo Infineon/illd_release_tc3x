@@ -209,6 +209,7 @@
 				<optionSet id="Common">
 					$(B_DCC_TRICORE_CC_OPTIONS)
 				</optionSet>
+				<optionSet id="Cpp">$(B_DCC_TRICORE_CPP_OPTIONS)</optionSet>
 				<argument
 					template="{kw:options} @{kw:incpaths_listfile} -c ${kw:lt} -o $@ -Xmake-dependency=4 -Xmake-dependency-savefile=$(@:.o=.d)" />
 			</tool>
@@ -291,5 +292,8 @@
 
 	<specificInclude internalPaths= "*/Sfr/*, */Libraries/*/Tricore, */Libraries/*/Platform, */Libraries/*/CpuGeneric" />
 	<selection>
-		<discard files="*/Sfr/TC33xED/*, */Sfr/TC35x/*, */Sfr/TC36x/*, */Sfr/TC37x*/*, */Sfr/TC38*/*, */Sfr/TC33x/*" /></selection>
+		<discard files="*/Sfr/TC33xED/*, */Sfr/TC35x/*, */Sfr/TC36x/*, */Sfr/TC37x*/*, */Sfr/TC38*/*, */Sfr/TC33x/*, */_Impl/TC38x/*, */_Impl/TC38EVOx/*, */_Impl/TC37xED/*, */_Impl/TC37x/*, */_Impl/TC36x/*, */_Impl/TC35x/*, */_Impl/TC33xED/*, */_Impl/TC33x/*, */_PinMap/TC38x/*, */_PinMap/TC38EVOx/*, */_PinMap/TC37xED/*, */_PinMap/TC37x/*, */_PinMap/TC36x/*, */_PinMap/TC35x/*, */_PinMap/TC33xED/*, */_PinMap/TC33x/*" />
+                <selection>
+                        <use files="*.cpp" />
+                        <assign optionSets="Tricore/Dcc/Cc/Cpp" /></selection></selection>
 </root>

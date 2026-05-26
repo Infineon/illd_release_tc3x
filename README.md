@@ -6,6 +6,7 @@ illd_release_tc3x contains the following folders and file
 * `examples` : contains the BaseFramework for all the TC3xx devices and BlinkyLed example project
 * `exe`      : Contains the installer for the iLLD package
 * `src`      : contains the source code for TC3xx
+* `IFASLL202501`: contains the click license for TC3xx
 * `Readme.md`: Contains information about the folder structure, package usage and iLLD software
 			   release version.
 
@@ -27,11 +28,10 @@ To compile the iLLDs for the TC39xB device, add the following macros to the AppS
 When building the blinky example for other devices, update the Ifx_cfg.h file accordingly by adding the relevant device-specific macros.								  
 									  
 ## iLLD version info
-iLLD Release version	V1.21.0
+iLLD Release version	V1.22.0
 
 								   
 ## Revision History
-### V1.0
-Initial release
+For a summary of changes, please refer to Section 3.1 of the release notes in the doc folder.
 
 
